@@ -12,6 +12,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/Chapter2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/Chapter3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/MainFPScalaRedBook" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Chapter4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/Chapter4" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

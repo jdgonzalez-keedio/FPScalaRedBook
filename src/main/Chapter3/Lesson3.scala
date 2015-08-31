@@ -38,3 +38,8 @@ object List {
   def productR(ns: List[Double]) = foldRight(ns, 1.0)(_ * _)
 
 }
+
+sealed trait Tree[+A]
+case class Leaf[A](value: A) extends Tree[A]
+case class Branch[A](left: Tree[A], right: Tree[A]) extends Tree[A]
+

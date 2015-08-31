@@ -115,6 +115,13 @@ object Execises3 {
 
     }
 
+  // Function size that counts the number of nodes (leaves and branches) in the tree
+  def size[A](tree: Tree[A]): Int =
+    tree match {
+      case Leaf(_) => 1
+      case Branch(l,r) => 1 + size(l) + size(r)
+    }
+
   //
 
   //----------------
