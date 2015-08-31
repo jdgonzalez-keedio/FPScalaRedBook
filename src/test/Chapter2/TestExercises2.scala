@@ -3,7 +3,7 @@ import org.junit.{Assert, Test}
 /**
  * Created by J.David González "jdgonzalez@keedio.com" on 31/8/15.
  */
-class TestExercises2 {
+class TestExercises2 extends Lesson2 {
 
   @Test
   def factorialTest() = {
